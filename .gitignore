@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+myfixit_rag/
+
+# Generated artifacts (rebuilt by the notebook)
+faiss_index.bin
+rag_chunks.parquet
+
+# Dataset (cloned at runtime by the notebook)
+MyFixit-Dataset/
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+*.tmp
+kk

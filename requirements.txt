@@ -1,0 +1,9 @@
+streamlit
+ollama
+faiss-cpu
+sentence-transformers
+torch
+pandas
+numpy
+pyarrow
+jupyter
